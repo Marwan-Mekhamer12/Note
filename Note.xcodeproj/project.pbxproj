@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F43C3D572C6596AE0087024E /* NewTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43C3D562C6596AE0087024E /* NewTabVC.swift */; };
+		F46952402C65A3CA001E6EA2 /* NoteTapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F469523F2C65A3CA001E6EA2 /* NoteTapVC.swift */; };
 		F4C71AB12C65919B00578B4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C71AB02C65919B00578B4D /* AppDelegate.swift */; };
 		F4C71AB32C65919B00578B4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C71AB22C65919B00578B4D /* SceneDelegate.swift */; };
 		F4C71AB52C65919B00578B4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C71AB42C65919B00578B4D /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F43C3D562C6596AE0087024E /* NewTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTabVC.swift; sourceTree = "<group>"; };
+		F469523F2C65A3CA001E6EA2 /* NoteTapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTapVC.swift; sourceTree = "<group>"; };
 		F4C71AAD2C65919B00578B4D /* Note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Note.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C71AB02C65919B00578B4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4C71AB22C65919B00578B4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				F4C71AB92C65919D00578B4D /* Assets.xcassets */,
 				F4C71ABB2C65919D00578B4D /* LaunchScreen.storyboard */,
 				F4C71ABE2C65919D00578B4D /* Info.plist */,
+				F43C3D562C6596AE0087024E /* NewTabVC.swift */,
+				F469523F2C65A3CA001E6EA2 /* NoteTapVC.swift */,
 			);
 			path = Note;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4C71AB52C65919B00578B4D /* ViewController.swift in Sources */,
+				F46952402C65A3CA001E6EA2 /* NoteTapVC.swift in Sources */,
 				F4C71AB12C65919B00578B4D /* AppDelegate.swift in Sources */,
 				F4C71AB32C65919B00578B4D /* SceneDelegate.swift in Sources */,
+				F43C3D572C6596AE0087024E /* NewTabVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
